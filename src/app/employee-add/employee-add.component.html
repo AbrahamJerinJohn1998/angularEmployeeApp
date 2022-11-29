@@ -9,34 +9,34 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Employee Name</label>
-                    <input type="text" class="form-control">
+                    <input name="name" [(ngModel)]="name" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Designation</label>
-                    <input type="text" class="form-control">
+                    <input name="designation" [(ngModel)]="designation" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Salary</label>
-                    <input type="text" class="form-control">
+                    <input name="salary" [(ngModel)]="salary" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Phone No</label>
-                    <input type="text" class="form-control">
+                    <input name="PhoneNo" [(ngModel)]="PhoneNo" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Email Id</label>
-                    <input type="email" name="" id="" class="form-control">
+                    <input name="email" [(ngModel)]="email" type="email" name="" id="" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Company Website</label>
-                    <input type="text" class="form-control">
+                    <label for="" class="form-label">Company Name</label>
+                    <input name="cname" [(ngModel)]="cname" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Year of Experience</label>
-                    <input type="text" class="form-control">
+                    <input name="yearOfExpereince" [(ngModel)]="yearOfExpereince" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <button class="btn btn-success">Submit</button>
+                    <button (click)="readValues()" class="btn btn-success">Submit</button>
                 </div>
             </div>
         </div>

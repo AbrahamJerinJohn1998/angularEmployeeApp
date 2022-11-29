@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./employee-edit.component.css']
 })
 export class EmployeeEditComponent {
-
+  eCode=""
+  readValues=()=>
+  {
+   let data:any={
+    "eCode":this.eCode
+      } 
+      console.log(data)
+}
 }
